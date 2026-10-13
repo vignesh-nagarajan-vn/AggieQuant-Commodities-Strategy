@@ -6,7 +6,7 @@ We take five commodity ETFs and apply one simple rule to each of them. At the en
 
 The five ETFs would be GLD (gold), SLV (silver), USO (oil), UNG (natural gas), and DBA (agriculture).
 
-![Flowchart of the monthly trend rule](img/trend-rule.svg)
+<img width="720" height="510" alt="image" src="https://github.com/user-attachments/assets/e0e81534-e5d5-4df6-997e-9902a7776d79" />
 
 ## Why I think it's good
 
