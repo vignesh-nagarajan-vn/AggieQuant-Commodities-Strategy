@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" width="720" height="510" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#444444"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="510" rx="14" fill="#ffffff"/>
+
+  <!-- connectors -->
+  <g fill="none" stroke="#444444" stroke-width="2.5" marker-end="url(#arrow)">
+    <path d="M360,100 V138"/>
+    <path d="M230,200 H150 V308"/>
+    <path d="M490,200 H570 V308"/>
+    <path d="M150,380 V450 H208"/>
+    <path d="M570,380 V450 H512"/>
+  </g>
+
+  <!-- step 1 -->
+  <rect x="190" y="30" width="340" height="70" rx="10" fill="#f3eded" stroke="#500000" stroke-width="2.5"/>
+  <text x="360" y="60" text-anchor="middle" font-size="19" font-weight="700" fill="#500000">End of the month</text>
+  <text x="360" y="84" text-anchor="middle" font-size="15" fill="#333333">Look at each ETF's last 12 months</text>
+
+  <!-- decision -->
+  <polygon points="360,140 490,200 360,260 230,200" fill="#fff8e1" stroke="#b8860b" stroke-width="2.5"/>
+  <text x="360" y="196" text-anchor="middle" font-size="16" font-weight="700" fill="#333333">Is the return</text>
+  <text x="360" y="216" text-anchor="middle" font-size="16" font-weight="700" fill="#333333">positive?</text>
+
+  <text x="186" y="188" text-anchor="middle" font-size="16" font-weight="700" fill="#1b7a3a">Yes</text>
+  <text x="534" y="188" text-anchor="middle" font-size="16" font-weight="700" fill="#666666">No</text>
+
+  <!-- outcomes -->
+  <rect x="40" y="310" width="220" height="70" rx="10" fill="#e6f4ea" stroke="#1b7a3a" stroke-width="2.5"/>
+  <text x="150" y="340" text-anchor="middle" font-size="18" font-weight="700" fill="#1b7a3a">Hold the ETF</text>
+  <text x="150" y="363" text-anchor="middle" font-size="15" fill="#333333">20% of the portfolio</text>
+
+  <rect x="460" y="310" width="220" height="70" rx="10" fill="#eeeeee" stroke="#666666" stroke-width="2.5"/>
+  <text x="570" y="340" text-anchor="middle" font-size="18" font-weight="700" fill="#444444">Hold cash</text>
+  <text x="570" y="363" text-anchor="middle" font-size="15" fill="#333333">for that 20% slot</text>
+
+  <!-- loop -->
+  <rect x="210" y="420" width="300" height="60" rx="10" fill="#f3eded" stroke="#500000" stroke-width="2.5"/>
+  <text x="360" y="456" text-anchor="middle" font-size="18" font-weight="700" fill="#500000">Repeat next month</text>
+</svg>
